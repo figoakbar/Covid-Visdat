@@ -70,4 +70,4 @@ tab1 = Panel(child=fig_positive, title='COVID-19 Positive Cases')
 #inisialisasi fitur tab kasus negatif
 tab2 = Panel(child=fig_negative, title='COVID-19 Negative Cases')
 
-show(Tabs(tabs=[tab1, tab2]))
+curdoc().add_root(Tabs(tabs=[tab1, tab2]))
