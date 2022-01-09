@@ -1,6 +1,7 @@
 #import libraries
 import pandas as pd
 
+from bokeh.io import curdoc
 from bokeh.plotting import figure, show
 from bokeh.models import ColumnDataSource
 from bokeh.models.widgets import Tabs, Panel
